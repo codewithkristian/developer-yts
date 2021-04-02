@@ -15,8 +15,8 @@ export default ({ data }) => {
       <Hero
         image={data.hero}
         tag="#coding"
-        title="Developer YouTube Channels"
-        description="Check out our favorite developer YouTube channels"
+        title="This is what you're missing in development"
+        description="Finally learn development from our hand-picked, curated YouTube channels"
       />
 
       <Cards nodes={data.items.nodes} />
